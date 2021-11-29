@@ -12,6 +12,7 @@ class App extends Component {
         <h2>Test</h2>
         <h3>checking</h3>
         <h4>commit second comment</h4>
+        <h4>commit third comment</h4>
       </div>
   
     )
