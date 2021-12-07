@@ -55,10 +55,4 @@
     ]
     
   },
-   devServer: {
-    contentBase: __dirname + "/public/",
-    inline: true,
-    host: '127.0.0.1',
-    port: 5000,
-},
 }
