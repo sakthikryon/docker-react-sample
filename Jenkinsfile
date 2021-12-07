@@ -21,9 +21,9 @@ node {
     stage('Deploy'){
       if(env.BRANCH_NAME == 'main'){
         sh 'docker build -t react-app --no-cache .'
-        sh 'docker tag react-app localhost:5000'
-        sh 'docker push localhost:5000'
-        sh 'docker rmi -f react-app localhost:5000'
+        sh 'docker tag react-app localhost:3200'
+        sh 'docker push localhost:3200'
+        sh 'docker rmi -f react-app localhost:3200'
       }
     }
   }
