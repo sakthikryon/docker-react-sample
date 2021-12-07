@@ -32,11 +32,9 @@
     "react-scripts": "^3.4.1",
     "react-toastify": "^5.5.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+ "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval"
   },
   "eslintConfig": {
     "extends": "ispghan"
