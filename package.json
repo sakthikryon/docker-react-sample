@@ -38,12 +38,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  devServer: {
-    contentBase: __dirname + "/public/",
-    inline: true,
-    host: '127.0.0.1',
-    port: 5000,
-},
+ 
   "eslintConfig": {
     "extends": "ispghan"
   },
@@ -59,5 +54,11 @@
       "last 1 safari version"
     ]
     
-  }
+  },
+   devServer: {
+    contentBase: __dirname + "/public/",
+    inline: true,
+    host: '127.0.0.1',
+    port: 5000,
+},
 }
