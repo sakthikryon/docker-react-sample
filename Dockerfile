@@ -4,6 +4,8 @@
 FROM node:12.12-alpine
 # set working direction
 WORKDIR /app
+EXPOSE 80/tcp
+EXPOSE 80/udp
 # add `/app/node_modules/.bin` to $PATH
 ENV PATH /app/node_modules/.bin:$PATH
 # install application dependencies
